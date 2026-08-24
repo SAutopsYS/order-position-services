@@ -1,0 +1,111 @@
+{
+  "dataset": "BSE corporate announcements",
+  "generated_at_utc": "2026-08-20T05:26:07.622823+00:00",
+  "source_endpoint": "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w",
+  "requested_period": {
+    "from_date_inclusive": "2023-08-20",
+    "to_date_inclusive": "2026-08-20"
+  },
+  "stocks": {
+    "RELIANCE": {
+      "bse_scrip_code": 500325,
+      "api_reported_rows": 844,
+      "stored_rows": 844,
+      "duplicates_removed": 0,
+      "requests_made": 20
+    },
+    "HDFCBANK": {
+      "bse_scrip_code": 500180,
+      "api_reported_rows": 607,
+      "stored_rows": 607,
+      "duplicates_removed": 0,
+      "requests_made": 15
+    },
+    "NYKAA": {
+      "bse_scrip_code": 543384,
+      "api_reported_rows": 339,
+      "stored_rows": 339,
+      "duplicates_removed": 0,
+      "requests_made": 10
+    },
+    "HAL": {
+      "bse_scrip_code": 541154,
+      "api_reported_rows": 276,
+      "stored_rows": 276,
+      "duplicates_removed": 0,
+      "requests_made": 8
+    },
+    "RVNL": {
+      "bse_scrip_code": 542649,
+      "api_reported_rows": 464,
+      "stored_rows": 464,
+      "duplicates_removed": 0,
+      "requests_made": 12
+    }
+  },
+  "records": {
+    "total": 2530,
+    "by_scrip_code": {
+      "500180": 607,
+      "500325": 844,
+      "541154": 276,
+      "542649": 464,
+      "543384": 339
+    },
+    "cross_symbol_duplicates_removed": 0
+  },
+  "api": {
+    "maximum_inclusive_window_days_used": 365,
+    "observed_page_size": 50,
+    "requests_made": 65,
+    "constant_parameters": {
+      "strCat": -1,
+      "strSearch": "P",
+      "strType": "C",
+      "subcategory": -1
+    }
+  },
+  "format": {
+    "jsonl": "UTF-8; one unmodified BSE Table record per line",
+    "csv": "UTF-8; header plus one unmodified BSE Table record per row",
+    "fields": [
+      "NEWSID",
+      "SCRIP_CD",
+      "XML_NAME",
+      "NEWSSUB",
+      "DT_TM",
+      "NEWS_DT",
+      "CRITICALNEWS",
+      "ANNOUNCEMENT_TYPE",
+      "QUARTER_ID",
+      "FILESTATUS",
+      "ATTACHMENTNAME",
+      "MORE",
+      "HEADLINE",
+      "CATEGORYNAME",
+      "OLD",
+      "RN",
+      "PDFFLAG",
+      "NSURL",
+      "SLONGNAME",
+      "AGENDA_ID",
+      "News_submission_dt",
+      "DissemDT",
+      "TimeDiff",
+      "Fld_Attachsize",
+      "SUBCATNAME",
+      "BSENewsid",
+      "Investor_Presentation",
+      "AUDIO_VIDEO_FILE"
+    ]
+  },
+  "files": {
+    "corporate_announcements.jsonl": {
+      "sha256": "bc09f8c1ec6ef6684458146825cabb7b486f51d480ab385491f0c3a65761889e"
+    },
+    "corporate_announcements.csv": {
+      "sha256": "d238a8b5fdf3fd507c1bcb9ff3092e0ce1ee8019930752d355411fa2d162c76f"
+    }
+  },
+  "raw_api_pages_saved": true
+}
