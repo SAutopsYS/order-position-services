@@ -1,0 +1,17 @@
+metric,value
+financial_result_announcements,93
+independent_financial_result_events,75
+positive_initial_reaction,26
+neutral_initial_reaction,0
+negative_initial_reaction,49
+unavailable_initial_reaction,0
+usable_d1,75
+missing_d1,0
+usable_d3,75
+missing_d3,0
+usable_d5,75
+missing_d5,0
+usable_d10,72
+missing_d10,3
+usable_d20,71
+missing_d20,4

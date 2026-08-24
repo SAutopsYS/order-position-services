@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Supplied assessment datasets must not be committed.
+data/raw/
+*.zip
+corporate_announcements.csv
+corporate_announcements.jsonl
+RELIANCE.csv
+HDFCBANK.csv
+NYKAA.csv
+HAL.csv
+RVNL.csv
